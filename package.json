@@ -1,0 +1,18 @@
+{
+  "name": "liquidjs-ov-timeago-filters",
+  "version": "1.0.0",
+  "description": "Timeago filters for liquidjs used by OnVoard",
+  "scripts": {},
+  "author": "Ryan Liao <pirsquare.ryan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirsquare/liquidjs-ov-timeago-filters.git"
+  },
+  "main": "lib/index.js",
+  "devDependencies": {},
+  "dependencies": {
+    "liquidjs": "^9.17.0",
+    "timeago.js": "^4.0.1"
+  }
+}
