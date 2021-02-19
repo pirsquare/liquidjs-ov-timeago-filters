@@ -2,6 +2,9 @@
   "name": "liquidjs-ov-timeago-filters",
   "version": "1.0.0",
   "description": "Timeago filters for liquidjs used by OnVoard",
+  "keywords": [
+    "liquidjs"
+  ],
   "scripts": {},
   "author": "Ryan Liao <pirsquare.ryan@gmail.com>",
   "license": "MIT",
