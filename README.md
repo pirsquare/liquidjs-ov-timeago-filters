@@ -9,13 +9,19 @@ yarn add liquidjs-ov-timeago-filters
 ```
 
 ## Examples
+Setup plugin
+
 ```shell
 import { Liquid } from 'liquidjs';
-import { timeagoFiltersPlugin } from 'liquidjs-ov-timeago-filters';
+import { timeagoFiltersPlugin } from 'liquidjs-ov-money-filters';
 
 const engine = new Liquid();
 engine.plugin(timeagoFiltersPlugin);
+```
 
+### timeago
+Render timeago string with unix timestamp.
+```shell
 # Output: 5 minutes ago
 const fiveMinsAgoTs = Math.floor(Date.now() / 1000) - 60*5;
 const template = `{{ ${fiveMinsAgoTs}|timeago }}`;
