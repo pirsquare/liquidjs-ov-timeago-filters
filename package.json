@@ -1,7 +1,6 @@
 {
   "name": "liquidjs-ov-timeago-filters",
-  "version": "1.2.0",
-  "type": "module",
+  "version": "1.7.0",
   "description": "Timeago filters for liquidjs used by OnVoard",
   "keywords": [
     "liquidjs"
